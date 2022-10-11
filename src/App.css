@@ -1,0 +1,58 @@
+.App{
+    padding-bottom: 60px;
+    height: 700px;
+    background-image: linear-gradient(rgba(58, 47, 175, 0.713), rgba(207, 207, 40, 0.708));    background-repeat: no-repeat;
+    background-size: cover;
+}
+.users-container{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.form-container{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #0002;
+    backdrop-filter: blur(2px);
+    position:fixed;
+    top:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    z-index: index 1;
+}
+.disable_form{
+    display:none;
+}
+.App_container-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.App_btn-create{
+    width: 100%;
+    max-width: 200px;
+    padding: 10px;
+    background-color: #555a87;
+    color: white;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: transform 150ms ease, box-shadow 150ms ease ;
+}
+.App_btn-create:hover{
+    transform: scale(1.04);
+    box-shadow: 0 0 10px #0005;
+    transition: transform 150ms ease, box-shadow 150ms ease ;
+}
+.App_title{
+    color: aliceblue;
+}
